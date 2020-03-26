@@ -1,12 +1,47 @@
 <html>
-<style>
+    <style>
+        .body{
+            position: relative;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            }
+        #search-bar{
+            text-align: center;
+            grid: auto-flow / 1fr 2fr;
+            }
+        #search{
+            border-radius: 7px;
+            width: 500px;
+            height: 30px;
+        }
+
+        #logo{
+            display: block;
+            height: 100px;
+            width: auto;
+            margin: auto auto auto auto;
+        }  
 </style>
+<header id="topnav">
+
+    <a>About</a>
+    <a>Store</a>
+    <a>Gmail</a>
+    <a>Images</a>
+    <button>Sign In</button>
+</header>
 <body>
-<img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-<form id="search-bar">
-<input id="search"></input>
-<button id="google-search">Google Search</button>
-<button id="I'm-feeling-lucky">I'm Feeling Lucky</button>
-</form>
+    <div>
+    <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <form id="search-bar">
+        <input id="search" ></input>
+        <br>
+        <button id="google-search">Google Search</button>
+        <button id="I'm-feeling-lucky">I'm Feeling Lucky</button>
+        </form>
+    </div>
 </body>
 </html>
